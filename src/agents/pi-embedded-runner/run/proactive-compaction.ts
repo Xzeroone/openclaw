@@ -22,7 +22,7 @@ export function needsProactiveCompaction(params: {
   messages: AgentMessage[];
   contextTokens?: number;
   maxHistoryShare?: number;
-  modelId?: string;
+  modelId: string;
 }): boolean {
   const { messages, contextTokens, maxHistoryShare, modelId } = params;
 
